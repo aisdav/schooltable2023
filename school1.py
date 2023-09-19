@@ -52,7 +52,7 @@ async def att_handler(message: types.Message, state: FSMContext):
     update_att(name, att)
     if index == len(students)-1:
         file_name = generate_pdf(class_name)
-        await bot.send_document(315318600, open(file_name, "rb"))
+        await bot.send_document(832892390, open(file_name, "rb"))
         os.remove(file_name)
         await message.answer("Отчет отправлен завучу!")
         await state.finish()
