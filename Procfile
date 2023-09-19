@@ -1,0 +1,1 @@
+worker: python school1.py

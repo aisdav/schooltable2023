@@ -1,1 +1,1 @@
-# schooltable2023
+# school
